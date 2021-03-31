@@ -1,0 +1,133 @@
+#index {
+  background-image: url("../img/2-bg.jpg") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#product{
+  background-image: url("../img/3-bg.jpg") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#contact{
+  background-image: url("../img/1-bg.jpg") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#blog{
+  background-image: url("../img/4-bg.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#about{
+  background-image: url("../img/5-bg.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   @include heading-font;
+// }
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: $black !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.m3 {
+	margin-left: 3rem;
+}
+
+.pdng {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.font {
+	color: #555;
+}
+
+.fs2 {
+	font-size: 3.5rem;
+}
+
+.fs3 {
+  font-size: 2.5rem;
+}
+
+.fs4 {
+	font-size: 1.3rem;
+}
+
+.margin {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #799F0C 0%, #ACBB78 51%, #799F0C 100%)
+}
+
+.btn-grad:hover { 
+  background-position: right center; 
+}
+.midSection-margin{
+  margin-top: 4.3rem;
+}
+.white-text{
+  color: #fff !important;
+}
+.black-text{
+  color: #333 !important;
+}
+.hr-light{
+  border-top: 1px solid #fff;
+}
+
+.align{
+  text-align: justify;
+}
+
+.zoom {
+    padding-top: 30px;
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.header-font{
+  font-family: Sans-Serif;
+  font-weight: bold;
+}
+
+.body-font{
+  font-family: Sans-Serif;
+  color: #000;
+}
+
+header.masthead {
+    margin-bottom: 0;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    position: relative;
+}
